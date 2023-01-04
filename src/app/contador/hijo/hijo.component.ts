@@ -27,8 +27,4 @@ export class HijoComponent implements OnInit {
     this.store.dispatch(actions.dividir({numero: 2}));
   }
 
-  resetNieto(): void {
-    this.store.dispatch(actions.reset());
-  }
-
 }
